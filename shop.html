@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easybuy - Shop Page</title>
+    <link rel="stylesheet" href="shopstyle.css">
+</head>
+<body>
+
+    
+    <header>
+        <div class="container header-inner">
+            <div class="logo">
+                <div style="width: 24px; height: 24px; background-color: #2E5B4E; border-radius: 6px; display: flex; justify-content: center; align-items: center; color: white; font-weight: bold; font-size: 16px; font-family: Arial, sans-serif;">e</div>
+                easybuy
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search products...">
+            </div>
+            <nav class="nav-links">
+                <a href="home.html">Home</a>
+                <a href="shop.html">Shop</a>
+                <a href="contact.html">Contact</a>
+                <a href="/admin side/admin.html">Admin</a>
+                <a href="cart.html" class="cart-link"><span aria-hidden="true">&#128722;</span> Cart</a>
+                <a href="login.html" style="display: flex; align-items: center; gap: 5px;">
+                    <span style="font-size: 16px;">&#128100;</span> Login / Signup
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    
+    <section class="page-header">
+        <div class="container">
+            <p>The easy edit</p>
+            <h1>Find your next favourite.</h1>
+            <p class="subtitle">Thoughtful picks across tech, style, home and beauty — all in one easy scroll.</p>
+        </div>
+    </section>
+
+    
+    <div class="container shop-layout">
+        
+        
+        <aside class="sidebar">
+            <div class="filter-header">
+                <span>&#9662; Filters</span>
+            </div>
+
+            <div class="filter-group">
+                <h4>Category</h4>
+                <ul class="filter-list">
+                    <li>All <span>0</span></li>
+                    <li>Electronics <span>4</span></li>
+                    <li>Fashion <span>1</span></li>
+                    <li>Home <span>2</span></li>
+                    <li>Beauty <span>1</span></li>
+                </ul>
+            </div>
+
+            <div class="filter-group">
+                <h4>Rating</h4>
+                <ul class="filter-list">
+                    <li>4.5 and up <span>&#9733;</span></li>
+                    <li>4.0 and up <span>&#9733;</span></li>
+                </ul>
+            </div>
+
+            <div class="filter-group">
+                <h4>Price Range</h4>
+                <div class="range-slider">
+                    <input type="range" min="0" max="200" value="150">
+                </div>
+                <div class="range-values">
+                    <span>$0</span>
+                    <span>$200+</span>
+                </div>
+                <button class="btn" style="width: 100%; padding: 8px;">Clear filters</button>
+            </div>
+        </aside>
+
+        
+        <main class="products-area">
+            <div class="products-header">
+                <span>Showing 8 products</span>
+                <div style="display: flex; align-items: center; gap: 10px;">
+                    <span>Free shipping over $75</span>
+                    <select class="sort-dropdown">
+                        <option>Sort by: Featured</option>
+                        <option>Price: Low to High</option>
+                        <option>Price: High to Low</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="product-grid">
+                
+                <div class="product-card">
+                    <div class="tag">Buy often</div>
+                    <img src="/image/airpods.png" alt="AirPods Pro Headphones" class="product-img">
+                    <div class="product-brand">Electronics</div>
+                    <div class="product-name">AirPods Pro Headphones</div>
+                    <div class="product-meta">
+                        <div class="product-price">$129</div>
+                        <div class="product-rating">&#9734; 4.8</div>
+                    </div>
+                    <button class="add-btn">Add</button>
+                </div>
+
+                
+                <div class="product-card">
+                    <div class="tag">New</div>
+                    <img src="/image/sneaker.png" alt="Runner Sneakers" class="product-img">
+                    <div class="product-brand">Fashion</div>
+                    <div class="product-name">Runner Sneakers</div>
+                    <div class="product-meta">
+                        <div class="product-price">$94</div>
+                        <div class="product-rating">&#9734; 4.7</div>
+                    </div>
+                    <button class="add-btn">Add</button>
+                </div>
+
+                
+                <div class="product-card">
+                    <img src="/image/smarwatch.png" alt="Pulse Smartwatch" class="product-img">
+                    <div class="product-brand">Electronics</div>
+                    <div class="product-name">Pulse Smartwatch</div>
+                    <div class="product-meta">
+                        <div class="product-price">$179</div>
+                        <div class="product-rating">&#9734; 4.9</div>
+                    </div>
+                    <button class="add-btn">Add</button>
+                </div>
+
+                
+                <div class="product-card">
+                    <div class="tag">Top rated</div>
+                    <img src="/image/facewash.png" alt="Glow Skin Essentials" class="product-img">
+                    <div class="product-brand">Beauty</div>
+                    <div class="product-name">Glow Skin Essentials</div>
+                    <div class="product-meta">
+                        <div class="product-price">$48</div>
+                        <div class="product-rating">&#9734; 4.6</div>
+                    </div>
+                    <button class="add-btn">Add</button>
+                </div>
+
+                
+                <div class="product-card">
+                    <img src="/image/lamp.png" alt="Cloud Desk Lamp" class="product-img">
+                    <div class="product-brand">Home</div>
+                    <div class="product-name">Cloud Desk Lamp</div>
+                    <div class="product-meta">
+                        <div class="product-price">$62</div>
+                        <div class="product-rating">&#9734; 4.5</div>
+                    </div>
+                    <button class="add-btn">Add</button>
+                </div>
+
+                
+                <div class="product-card">
+                    <img src="/image/speaker.png" alt="Mini Mic Speaker" class="product-img">
+                    <div class="product-brand">Electronics</div>
+                    <div class="product-name"> Speaker</div>
+                    <div class="product-meta">
+                        <div class="product-price">$69</div>
+                        <div class="product-rating">&#9734; 4.8</div>
+                    </div>
+                    <button class="add-btn">Add</button>
+                </div>
+
+                
+                <div class="product-card">
+                    <img src="/image/football.png" alt="Football" class="product-img">
+                    <div class="product-brand">Home</div>
+                    <div class="product-name">football</div>
+                    <div class="product-meta">
+                        <div class="product-price">$55</div>
+                        <div class="product-rating">&#9734; 4.4</div>
+                    </div>
+                    <button class="add-btn">Add</button>
+                </div>
+
+                
+                <div class="product-card">
+                    <img src="/image/headphone.png" alt="headphone" class="product-img">
+                    <div class="product-brand">Home</div>
+                    <div class="product-name">headphone</div>
+                    <div class="product-meta">
+                        <div class="product-price">$24</div>
+                        <div class="product-rating">&#9734; 4.9</div>
+                    </div>
+                    <button class="add-btn">Add</button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                                    <div class="logo" style="font-size: 16px;">
+    <div style="width: 20px; height: 20px; background-color: #2E5B4E; border-radius: 5px; display: flex; justify-content: center; align-items: center; color: white; font-weight: bold; font-size: 13px; font-family: Arial, sans-serif;">e</div>
+    easybuy
+</div>
+                    <p>Good products, clear picks, and a little help for everyone. We make easy for everyday.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li>Shop all products</li>
+                        <li>Contact us</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Admin</h4>
+                    <ul>
+                        <li>Admin login</li>
+                        <li>Dashboard</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <ul>
+                        <li>hello@easybuy.com</li>
+                        <li>+1 (800) 123-4567</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2025 Easybuy. Demo content experience.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
